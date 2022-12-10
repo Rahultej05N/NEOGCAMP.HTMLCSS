@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root{
+    --primary-color:red;
+}
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* rem tells about the font size of the root elemnt*/
+hr{
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.container{
+    padding-left: 1rem; 
+    padding-right: 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+.link{
+    text-decoration: none;
+   
+}
+.link1{
+    text-decoration: none;
+    padding-left: 0.5rem;  /*1rem=16px*/
+    padding-right: 1rem;
+    background-color: cadetblue;
+    border-radius: 0.5rem;
+    color: beige;
+   border: 1px solid;
+ 
+}
+.link2{
+    text-decoration: none;
+    padding-left: 0.5rem;  /*1rem=16px*/
+    padding-right: 1rem;
+    background-color: cadetblue;
+    border-radius: 0.5rem;
+    color: beige;
+}
+.non-bullet{
+    list-style: none;
+}
+.inline-list{
+     display: inline;
+     padding-left: 0rem;
+     padding-right: 1rem;
+     font-size: larger;
+}
+.navigation{
+    background-color: aquamarine;
+}
+.non-bullet{
+    margin-left: 95px;
+}
+.navbrand{
+    font-weight: 800;
+    font-size:larger;
+}
+a:hover{
+     background-color: lightcoral;
+      box-sizing: content-box;
+      border-radius: 3px;
+      text-decoration: none;
+}
+.navigation{
+  border-bottom-left-radius: 1rem;
+}
+.hero{
+    padding: 5px;
+    padding-top: 4rem;
+}
+.hero-img{
+    max-width: 390px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    margin-left: 50px;
+    color:black;
+    font-weight: 1200;
+    text-align: center;
+}
+.span{
+   color: cadetblue;
+}
+span:hover{
+    color: gold;
+}
+.section{
+    padding: 2rem;
+    background-color: lightgray;
+}
+
+.section h1{
+    text-align: center;
+}
+.section2 h1{
+    text-align: center;
+}
+.section2 {
+    background-color: lightgray;
+}
+.footer{
+    background-color: lightblue;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-top-right-radius: 1.2rem;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
